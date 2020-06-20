@@ -1,0 +1,141 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background: #081320;
+  padding: 25px 150px;
+}
+
+.nav-link {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.active {
+  color: #FEDA6A;
+}
+
+.fa {
+  color: #4F5F76;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.jumbotron {
+  background-image: url("/images/Rectangle 30.png");
+  height: 700px;
+}
+
+.jumbotron h3 {
+  color: #FEDA6A;
+}
+
+.new {
+  border-top: 2px solid #4F5F76;
+  width: 530px;
+}
+
+.head {
+  border-top: 2px solid #091F36;
+  width: 530px;
+  margin-top: 95px;
+}
+
+.serve {
+  border: 2px solid #091F36;
+  border-radius: 5px;
+}
+
+#pic2 {
+  margin-left: 145px;
+}
+
+#pic3 {
+  margin-left: 430px;
+  margin-top: -145px;
+}
+
+#pic4 {
+  margin-left: 99px;
+  margin-top: -325px;
+}
+
+#pic5 {
+  margin-left: 750px;
+  margin-top: -510px;
+}
+
+#pic6 {
+  margin-left: 430px;
+  margin-top: -350px;
+}
+  
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.review {
+  font-size: 25px;
+  color: #081320;
+  width: 400px;
+  text-align: justify;
+}
+
+.story {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  background: #081320;
+  height: 500px;
+  width: 460px;
+  padding: 20px;
+}
+
+.text {
+  color: #fff;
+  margin-top: 25px;
+  text-align: center;
+}
+
+footer {
+  background: #091F36;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 40px 90px;
+
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #4F5F76;
+  background: #091F36;
+  color: #4F5F76;
+  width: 300px;
+}
+
+.btn {
+  border: none; 
+  border: 2px solid #4F5F76;
+  color: #4F5F76;
+  background: #091F36;
+  border-radius: 100px;
+  padding: 10px 50px;
+
+}
+
+footer p {
+  color: #fff;
+}
+.reach {
+  color: #FEDA6A;
+}
