@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <title>Document</title>
+  <title>iCapture</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">  
   <link rel="stylesheet" href="styles/index.css">
 </head>
-<body>
+<body class="container-fluid">
   <!--Navigation-->
   <div class="container-fluid">
 
@@ -125,13 +125,17 @@
   <div class="container desktop">
     <div class="row my-5">
       <div class="col-lg">
+
         <p class="text-center " style="color: #081320; font-size: 20px;">iCapture is a Photography Studio based in New York. <br> We are a team of photographers who <br>take photographs with creativity, concept and passion.</p>   
       
+
       </div>
     </div>    
   </div>
 
-  <div class="container desktop">
+  <!--Services-->
+  <div class="container">
+
     <div class="row text-center">
       <div class="container head">
         <h1 class="p-3" style="color: #0F2862;">What We Do</h1>
@@ -139,30 +143,45 @@
     </div>
   </div>
 
-  <div class="container desktop">
-    <div class="row service serve mb-5">
-      <div class="col-lg-6 mx-auto">
-        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas sit accusantium in eligendi dolores, illum enim</p>
+  <div class="container service-width">
+    <div class="plan left">
+      We Plan
+    </div>
+    <div class="row service serve">
+      <div class="col-lg-8 mx-auto">
+        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas</p>
+
       </div>
     </div>
-    <div class="row service serve mb-5">
+    <div class="plan right">
+      We Shoot
+    </div>
+    <div class="row service serve">
       <div class="col-lg-8 mx-auto">
-        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas sit accusantium in eligendi dolores, illum enim</p>
+        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas</p>
       </div>
     </div>
-    <div class="row service serve mb-5">
+    <div class="plan left">
+      We Retouch
+    </div>
+    <div class="row service serve">
       <div class="col-lg-8 mx-auto">
-        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas sit accusantium in eligendi dolores, illum enim</p>
+        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas</p>
       </div>
     </div>
-    <div class="row service serve mb-5">
+    <div class="plan right">
+      We Finalize
+    </div>
+    <div class="row service serve">
       <div class="col-lg-8 mx-auto">
-        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas sit accusantium in eligendi dolores, illum enim</p>
+        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ipsam inventore facere voluptas</p>
       </div>
     </div>
   </div>
 
-  <div class="container shots_desktop">
+  <!--Latest shots-->
+  <div class="container">
+
     <div class="row text-center">
       <div class="container head">
         <h1 class="p-3" style="color: #0F2862;">Latest Shots</h1>
@@ -195,6 +214,29 @@
     </div>
   </div>
 
+  <!--Customer Reviews-->
+  <div class="">
+    <div class="row text-center">
+      <div class="container head">
+        <h1 class="p-3" style="color: #0F2862;">Customers Reviews</h1>
+      </div>
+    </div>
+    <div class="reviews">
+      <div class="reviews-home">
+        <div class="reviews-item">
+          <p class="lead review font-weight-bold"><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat reprehenderit maxime voluptatibus laborum!</q></p>
+        </div>
+        <div class="reviews-item-name">
+          <h4>MARY C.</h4>
+        </div>
+      </div>
+      <div class="reviews-home-two">
+        <div class="reviews-item">
+          <p class="lead review font-weight-bold"><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat reprehenderit maxime voluptatibus laborum!</q></p>      
+        </div>
+        <div class="reviews-item-name">
+          <h4>EVA S.</h4>
+        </div>
   <!-- Mobile View of Latest Shots -->
   <!-- IMAGE CAROUSEL -->
   <section class="mobile">
@@ -287,6 +329,9 @@
   </div>
   </div>
 
+  <!--Stories-->
+  <div class="container">
+
   <!-- REVIEWS FOR SMALL DEVICE -->
   <section class="my-5 small-device">
     <h2 class="heading-2 showcase_heading">Customer's Review</h2>
@@ -333,12 +378,18 @@
           <img src="images/Rectangle 78.png"  class="img-fluid" alt="">
           <p class="lead text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eligendi ea</p>
         </div>
+        <div class="date">
+          20 Nov, 2020
+        </div>
       </div>
 
       <div class="stories  col-lg-6">
         <div class="content">
           <img src="images/Rectangle 79.png" class="img-fluid" alt="">
           <p class="lead text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eligendi ea</p>
+        </div>
+        <div class="date">
+          30 Sep, 2020        
         </div>
       </div>
 
@@ -383,6 +434,7 @@
 </section>
   
 
+  <!--Footer-->
   <footer class="mt-5">
     <div class="info">
       <div class="mail">
@@ -395,9 +447,13 @@
       </div>
       <div class="reach">
         <h4 class="reach">Reach Us</h4>
-          <p>HNG Street, Opp Slack Avenue <br>Nigeria</p>
-          <p>+234 (0) 813 7901 167</p>
+          <p>1600 Pennsylvania Ave NW, <br> Washington, DC 20500</p>
+          <p>+1 (123) 456–7890</p>
           <p>E-mail: icapture@gmail.com</p>
+          <i class="fa fa-twitter"></i> 
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-pinterest"></i>
       </div>
       <div class="shot">
         <h4 class="reach">Recent Shots</h4>
