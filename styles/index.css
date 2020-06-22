@@ -1,3 +1,6 @@
+/*sTYLES FOR THE PHOTOGRAPHY TEMPLATE ONE LANDING PAGE*/
+
+
 @import 'main.css' screen and (max-width: 700px);
 :root {
   --primary-color: #0F2862;
@@ -11,9 +14,15 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .small-device {
   display: none;
 }
+
 .navbar {
   background:   var(--dark-primary-color);
   padding: 25px 150px;
@@ -30,7 +39,7 @@
 
 .fa {
   color: #4F5F76;
-  font-size: 40px;
+  font-size: 30px;
   margin-left: 20px;
 }
 
@@ -64,6 +73,33 @@
   display: none;
 }
 
+.service-width {
+  width: 820px !important;
+}
+
+.plan {
+  border: 3px solid #091F36;
+  background: #FEDA6A;
+  color: #081320;
+  width: 194px;
+  border-radius: 5px;
+  padding: 7px 10px;
+  line-height: 80%;
+  font-size: 24px;
+}
+
+.left {
+  position: relative;
+  left: -70px;
+  bottom: -20px;
+}
+
+.right {
+  position: relative;
+  right: -680px;
+  bottom: -20px;
+}
+
 #pic2 {
   margin-left: 145px;
 }
@@ -91,6 +127,18 @@
 .reviews {
   display: flex;
   justify-content: space-evenly;
+} 
+
+.reviews-item {
+  border-bottom: 2px solid #081320;
+}
+
+.reviews-item-name {
+  background: #081320;
+  color: #fff;
+  width: 250px;
+  float: right;
+  text-align: center;
   margin-bottom: 5%;
 }
 
@@ -99,6 +147,8 @@
   /* font-weight: 700; */
   color: #081320;
   text-align: center;
+  width: 400px; 
+
 }
 
 .reviewer {
@@ -115,6 +165,18 @@
   justify-content: space-between;
 }
 
+.date {
+  background: #0F2862;
+  color: #FEDA6A;
+  width: 194px;
+  padding: 7px 10px;
+  line-height: 80%;
+  font-size: 24px;
+  position: relative;
+  top: -160px;
+  left: 25px;
+}
+
 .content {
   background: #081320;
   padding: 20px;
@@ -126,8 +188,11 @@
   text-align: center;
 }
 
+/*PAGE FOOTER STYLES*/
 footer {
   background: #091F36;
+  padding: 40px 90px;
+
   min-width: 100%;
   max-width: 100%;
   
