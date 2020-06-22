@@ -79,11 +79,7 @@
   section {
 
     background-color: #131212;
-
-    margin-top: 10px;
-
-    margin-bottom: 10px;
-
+    
 
 
   }
@@ -94,9 +90,10 @@
 
 
 
-    width: 50%;
-
-    padding: 5px;
+    width: 33.3%;
+    padding: 70px;
+    float: left;
+    flex: 33.3%;
 
   }
 
@@ -116,7 +113,8 @@
 
   .row {
 
-    margin-left: 100px;
+    margin-left: 0px;
+    margin-right: 100px;
 
   }
 
@@ -138,25 +136,11 @@
 
   .text-uppercase {
 
-    margin-left: 110px;
-
     color: white;
 
     font-family: "Montserrat";
 
     font-weight: 500;
-
-  }
-
-
-
-  .page-footer {
-
-
-
-    margin-bottom: 10px;
-
-
 
   }
 
@@ -212,6 +196,14 @@
 
   }
 
+
+  .navbar-brand{
+
+    margin-left: 20px;
+  }
+
+
+
 </style>
 
 
@@ -226,9 +218,7 @@
 
   <div class="desktop-container">
 
-    <div class="page-header">
-
-      <div class="p-3 mb-2 bg-dark"></div>
+    <div class="page-header" style="color: #131212;">
 
 
 
@@ -246,11 +236,11 @@
 
           <li class="nav-item">
 
-            <a class="nav-link active" style="color: white;" href="#">HOME</a>
+            <a class="nav-link active" style="color: white;" href="index.html">HOME</a>
 
           <li class="nav-item">
 
-            <a class="nav-link" style="color: white;" href="#">SERVICES</a>
+            <a class="nav-link" style="color: white;" href="services.html">SERVICES</a>
 
           </li>
 
@@ -262,7 +252,7 @@
 
           <li class="nav-item">
 
-            <a class="nav-link active" style="color: white;" href="#">CONTACT</a>
+            <a class="nav-link active" style="color: white;" href="contact.html">CONTACT</a>
 
           </li>
 
@@ -316,17 +306,18 @@
 
     <section>
 
-      <p1 class="text-uppercase">gallery (2 columns)</p1>
-
+   
       <div class="row">
 
         <div class="column">
+          <p1 class="text-uppercase" style="margin-left: 5px; vertical-align: center;">gallery (3 columns)</p1>
 
-          <img src="images/Rectangle 69.png" class="image">
 
-          <img src="images/Rectangle 70.png" class="img-responsive image">
+          <img src="images/Rectangle 80.png" class="img-responisve image" style="width: 379px; height: 508px;">
 
-          <img src="images/Rectangle 71.png" class="img-responsive image">
+          <img src="images/Rectangle 87.png" class="img-responsive image" style="width: 379px; height: 508px;">
+
+          <img src="images/Rectangle 81.png" class="img-responsive image" style="width: 379px; height: 508px;">
 
 
 
@@ -334,16 +325,23 @@
 
 
 
-        <div class="column">
+        <div class="column" style="margin-top: 25px;">
 
-          <img src="images/Rectangle 72.png" class="img-responsive image">
+          <img src="images/Rectangle 82.png" class="img-responsive image" style="width: 379px; height: 508px;">
 
-          <img src="images/Rectangle 73.png" class="img-responsive image">
+          <img src="images/Rectangle 88.png" class="img-responsive image" style="width: 379px; height: 508px;">
 
-          <img src="images/Rectangle 74.png" class="img-responisve image">
+          <img src="images/Rectangle 84.png" class="img-responisve image" style="width: 379px; height: 508px;">
 
         </div>
 
+        <div class="column" style="margin-top: 25px;">
+
+          <img src="images/Rectangle 85.png" class="img-responisve image" style="width: 379px; height: 508px;">
+
+          <img src="images/Rectangle 83.png" class="img-responsive image" style="width: 379px; height: 508px;">
+
+          <img src="images/Rectangle 86.png" class="img-responsive image" style="width: 379px; height: 508px;">
 
 
     </section>
@@ -372,7 +370,7 @@
 
           <div class="col-md-6">
 
-            <h5 style="color: #4F5F76; margin-top: 10px; font-family: Montserrat; font-weight: 600; font-size: 39px;">[
+            <h5 style="color: #4F5F76; margin-top: 47px; font-family: Montserrat; font-weight: 600; font-size: 39px;">[
 
               iCAPTURE ]</h5>
 
@@ -383,11 +381,13 @@
                 <label for="exampleInputEmail1"></label>
 
                 <input type="email" class="email-input" id="exampleInputEmail1" placeholder="Enter your E-mail">
-
+              
+              
               </div>
 
               <button type="submit" class="btn btn-round subscribe">Subscribe</button>
 
+              
             </form>
 
             <p style="color: white;">Always find out about our exclusive deals,<br>latest shot and top trend</p>
@@ -402,11 +402,7 @@
 
           <div class="col-md-3 mb-md-0 mb-3" style="justify-content: center;">
 
-
-
-
-
-            <h5 style="color: #feda6a;">Reach Us</h5>
+            <h5 style="color: #feda6a; margin-top: 50px;">Reach Us</h5>
 
 
 
@@ -416,7 +412,7 @@
 
             <p class="d-block" style="color: white;">E-mail: icapture@gmail.com</p>
 
-            <ul class="nav justify-content-end" style="margin-right: 105px;">
+            <ul class="nav justify-content-end" style="margin-right: 100px;">
 
               <li class="nav-item">
 
@@ -450,9 +446,9 @@
 
 
 
-          <div class="col-md">
+          <div class="col-md" style="justify-content: end;">
 
-            <h5 style="color: #feda6a;">Recent Shots</h5>
+            <h5 style="color: #feda6a; margin-top: 45px;">Recent Shots</h5>
 
 
 
@@ -485,15 +481,6 @@
 
 
   </div>
-
-
-
-  <div class="footer-copyright py-2" style="background-color: #131212;"></div>
-
-  
-
-
-
 
 
   <script src="assets/js/imageDisplay.js"></script>
