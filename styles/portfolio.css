@@ -105,6 +105,11 @@
   .mobile-container {
     display: block !important;
   }
+
+  #head {
+    margin-left: 0!important;
+  }
+
   .row {
     margin: 0 !important;
   }
